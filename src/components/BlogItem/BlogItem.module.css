@@ -1,0 +1,19 @@
+.BlogCard {
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px #ccc;
+    margin: 16px;
+}
+
+.BlogImage {
+    width: 300px;
+    height: 250px;
+  }
+  
+  .BlogTitle {
+    font-size: 24px;
+  }
+  
+  .BlogDesc {
+    font: 18px;
+  }

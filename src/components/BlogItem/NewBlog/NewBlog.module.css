@@ -1,0 +1,6 @@
+.PostCard {
+    width: 500px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px #ccc;
+    margin: 12px;
+}

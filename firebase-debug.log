@@ -1,0 +1,25 @@
+[debug] [2019-08-07T05:10:15.743Z] ----------------------------------------------------------------------
+[debug] [2019-08-07T05:10:15.746Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Qaifi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-08-07T05:10:15.746Z] CLI Version:   7.2.2
+[debug] [2019-08-07T05:10:15.746Z] Platform:      win32
+[debug] [2019-08-07T05:10:15.746Z] Node Version:  v10.16.1
+[debug] [2019-08-07T05:10:15.748Z] Time:          Wed Aug 07 2019 13:10:15 GMT+0800 (Singapore Standard Time)
+[debug] [2019-08-07T05:10:15.748Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-07T05:10:15.761Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-07T05:10:15.763Z] > authorizing via signed-in user
+[debug] [2019-08-07T05:10:15.763Z] [iam] checking project test-hosting-8f9bf for permissions ["firebase.projects.get"]
+[debug] [2019-08-07T05:10:15.766Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/test-hosting-8f9bf:testIamPermissions  
+
+[debug] [2019-08-07T05:10:17.126Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-07T05:10:17.129Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/test-hosting-8f9bf  
+ 
+[debug] [2019-08-07T05:10:17.400Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'F:\Singapore Training\first-app'...
+[info] 
+[debug] [2019-08-07T05:10:17.406Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/test-hosting-8f9bf/webApps/-/config  
+ 
+[debug] [2019-08-07T05:10:17.820Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: /
+[info] +  hosting: Local server: http://localhost:5000
